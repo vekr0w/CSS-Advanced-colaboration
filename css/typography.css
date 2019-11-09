@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #edcd11;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.site-header {
+  font-weight: bold;
+}
+
+.page-title {
+  font-size: 50px;
+}
+
+.site-navigation {
+  list-style-type: none;
+}
+.nav-button {
+  background-color: #b21c1a;
+  border-radius: 5px;
+}
+
+.site-content {
+  text-align: center;
+}
+
+/* Footer CSS */
+
+.site-footer {
+  text-align: center;
+}
+
+.footer-container > p {
+  font-size: 20px;
+}
+
+.fa-facebook {
+  color: #4267b2;
+}
+.fa-linkedin {
+  color: #2867b2;
+}
+
+.footer-ul {
+  list-style-type: none;
+  font-size: 25px;
+}
+/* Home page CSS */
+.source {
+  background-color: #b21c1a;
+}
+
+.page-text {
+  height: fit-content;
+  background-color: #1d1d1d;
+}
+
+/* Pesho's page CSS */
+.pg-page-main {
+  text-align: left;
+}
+
+.pg-page-text {
+  background-color: #1d1d1d;
+  height: fit-content;
+}
+
+/* About page content */
+
+.about-text {
+  text-align: left;
+  background-color: #1d1d1d;
+  height: fit-content;
+}

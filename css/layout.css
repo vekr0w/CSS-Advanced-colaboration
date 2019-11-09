@@ -1,0 +1,165 @@
+/* Adding colour to the background for the whole layout */
+html {
+  background-color: #1d1d1d;
+}
+/* Adding colour for the page content */
+
+.site-content {
+  background-color: #242424;
+}
+
+/* Site-wrapper CSS */
+
+.site-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 2rem;
+}
+
+/* Site header CSS */
+
+.site-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.site-navigation {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 2rem;
+}
+
+.nav-button {
+  margin-left: 1rem;
+  padding: 1rem;
+}
+
+/* page-content */
+.site-content {
+  padding: 2rem;
+}
+
+/* footer CSS*/
+
+.site-footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.footer-container {
+  flex: 0 0 50%;
+}
+
+.footer-ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.footer-ul > li {
+  margin: 1rem;
+}
+
+/* Home page CSS */
+
+.page-content {
+  display: flex;
+  flex-flow: row;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.page-video {
+  flex: 0 0 40%;
+}
+
+.page-text {
+  flex: 0 0 40%;
+  text-align: left;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.page-source {
+  padding: 1rem 0;
+}
+
+/* Pesho's page CSS */
+
+.pg-page-main {
+  padding: 2rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.pg-page-text {
+  flex: 0 0 40%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.pg-page-image {
+  flex: 0 0 40%;
+}
+
+.pg-page-image > img {
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Kamen's Page CSS */
+
+.ky-page-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.ky-main-text {
+  flex: 0 0 40%;
+  text-align: left;
+  background: #1d1d1d;
+  padding: 1rem;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.ky-main-image {
+  flex: 0 0 40%;
+}
+
+.ky-main-image > img {
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* About page CSS */
+
+.about-content {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.about-text {
+  flex: 0 0 40%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.about-image {
+  flex: 0 0 40%;
+}
+
+.about-image > img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
